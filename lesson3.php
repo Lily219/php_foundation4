@@ -13,7 +13,8 @@ $person = [
     'name' => '山田',
     'age' => 20,
     'gender' => '女性'
-]
+];
 
-echo $person['name'];
-echo $person"['age']歳・['gender']";
+echo $person['name']; 
+echo '<br>';
+echo $person['age'] , '歳', '・', $person['gender'];
